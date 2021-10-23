@@ -1,1 +1,1 @@
-# GELF_to_Seq
+This is a project that logs GELF messages to Seq
