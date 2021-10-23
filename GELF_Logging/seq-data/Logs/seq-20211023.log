@@ -1,0 +1,29 @@
+{"@t":"2021-10-23T16:29:56.9579551Z","@mt":"Seq {SeqVersion} running on OS {OSCaption}","SeqVersion":"2021.2.6459","OSCaption":"Linux 5.10.16.3-microsoft-standard-WSL2 #1 SMP Fri Apr 2 22:23:49 UTC 2021","SourceContext":"Seq.Server.Features.Diagnostics.EnvironmentInformationWriter"}
+{"@t":"2021-10-23T16:29:57.0065345Z","@mt":"Seq detected {TotalRAM} MB of RAM","TotalRAM":13292.654592,"SourceContext":"Seq.Server.Features.Diagnostics.EnvironmentInformationWriter"}
+{"@t":"2021-10-23T16:29:57.1837704Z","@mt":"Opening event store at {StreamPath}","StreamPath":"/data/Stream/stream.flare","SourceContext":"Flare.Cluster.StorageNodeCoordinator"}
+{"@t":"2021-10-23T16:29:57.2209198Z","@mt":"Opening metastore {MetastorePath}","MetastorePath":"/data/Documents/documents.lmdb","SourceContext":"Quince.Storage.Lmdb.LmdbDocumentStore"}
+{"@t":"2021-10-23T16:29:57.2651571Z","@mt":"Initializing a new metastore","SourceContext":"Quince.Storage.Lmdb.LmdbDocumentStore"}
+{"@t":"2021-10-23T16:29:57.3935331Z","@mt":"Creating default workspace for {UserId}","UserId":"user-admin"}
+{"@t":"2021-10-23T16:29:57.4685103Z","@mt":"Storage subsystem available"}
+{"@t":"2021-10-23T16:29:57.5286856Z","@mt":"Seq listening on {ListenUris}","ListenUris":["http://localhost/","http://localhost:5341/"]}
+{"@t":"2021-10-23T16:30:57.5577022Z","@mt":"{CollectionCount} more generation 2 garbage collection(s) occurred","CollectionCount":1,"SourceContext":"Seq.Server.Features.Diagnostics.GCLogger"}
+{"@t":"2021-10-23T16:34:57.5672272Z","@mt":"Metrics sampled","CacheDays":0.041666666666666664,"CacheEvents":1,"SystemMemoryUtilization":0.11919321524788173,"ProcessWorkingSetBytes":199176192,"ProcessThreads":60,"ArrivedEventsPerMinute":0,"IngestedEventsPerMinute":0,"IngestedBytesPerMinute":0,"InvalidPayloadsPerMinute":0,"UnauthorizedPayloadsPerMinute":0,"BroadcastQueueCount":0,"BroadcastSubscriptionQueuesAggregateCount":0}
+{"@t":"2021-10-23T16:39:57.5621902Z","@mt":"Applying {Count} retention policies","Count":0,"SourceContext":"Seq.Server.Features.Retention.RetentionPolicyApplier"}
+{"@t":"2021-10-23T16:39:57.5680021Z","@mt":"Retention processing and compaction took {Elapsed} ms; allocating {Allocation} ms for indexing","Elapsed":7.7516,"Allocation":599992.2484}
+{"@t":"2021-10-23T16:39:57.5661378Z","@mt":"Metrics sampled","CacheDays":0.041666666666666664,"CacheEvents":1,"SystemMemoryUtilization":0.12069046802476335,"ProcessWorkingSetBytes":221458432,"ProcessThreads":67,"ArrivedEventsPerMinute":0,"IngestedEventsPerMinute":0,"IngestedBytesPerMinute":0,"InvalidPayloadsPerMinute":0,"UnauthorizedPayloadsPerMinute":0,"BroadcastQueueCount":0,"BroadcastSubscriptionQueuesAggregateCount":0}
+{"@t":"2021-10-23T16:39:57.5701521Z","@mt":"Beginning indexing","SourceContext":"Seq.Server.Features.Indexing.EventStoreIndexer"}
+{"@t":"2021-10-23T16:39:57.6473875Z","@mt":"Wrote {IndexSetCount} index sets in {Elapsed:0.000} ms","@r":["76.000"],"IndexSetCount":0,"Elapsed":76,"SourceContext":"Seq.Server.Features.Indexing.EventStoreIndexer"}
+{"@t":"2021-10-23T16:39:57.6482580Z","@mt":"Indexing took {Elapsed} ms; total iteration time was {Iteration} ms","Elapsed":79,"Iteration":87.4334}
+{"@t":"2021-10-23T16:44:33.2561440Z","@mt":"Termination signal received"}
+{"@t":"2021-10-23T16:44:33.2729431Z","@mt":"Signalling for {Workers} worker task(s) to complete","Workers":3,"SourceContext":"Flare.Workers.WorkerPool"}
+{"@t":"2021-10-23T16:44:33.6411065Z","@mt":"Work {WorkDescription} ({WorkId}) completed with its token in a canceled state","WorkDescription":"Manage event cache resources","WorkId":"8b78a717-937d-47fb-add6-4fea0cb41504","SourceContext":"Flare.Workers.WorkerPool"}
+{"@t":"2021-10-23T16:44:33.9181593Z","@mt":"Work {WorkDescription} ({WorkId}) completed with its token in a canceled state","WorkDescription":"Monitor alerts and trigger notifications","WorkId":"48f108a1-0520-43b3-bffe-0150f7c8ff76","SourceContext":"Flare.Workers.WorkerPool"}
+{"@t":"2021-10-23T16:44:37.4494631Z","@mt":"Work {WorkDescription} ({WorkId}) completed with its token in a canceled state","WorkDescription":"Sample system memory","WorkId":"094ff8d2-6487-4fe7-bcd4-69892d217a20","SourceContext":"Flare.Workers.WorkerPool"}
+{"@t":"2021-10-23T16:44:37.4913292Z","@mt":"Stopping {Tasks} scheduled tasks","Tasks":15,"SourceContext":"Seq.Server.Tasks.TaskRunner"}
+{"@t":"2021-10-23T16:44:37.4977274Z","@mt":"Stopping input channel","SourceContext":"Seq.Server.Features.Apps.Inputs.InputChannel"}
+{"@t":"2021-10-23T16:44:37.8135513Z","@mt":"Shutting down input channel; {AcceptedCount} queued events will be written","AcceptedCount":0,"SourceContext":"Seq.Server.Features.Apps.Inputs.InputChannel"}
+{"@t":"2021-10-23T16:44:37.8145376Z","@mt":"Stopping broadcast channel","SourceContext":"Flare.Broadcast.BroadcastChannel"}
+{"@t":"2021-10-23T16:44:38.8132790Z","@mt":"Shutting down broadcast channel with {AllowableFlush} flushable event batches (+{Tolerance} tolerance)","AllowableFlush":0,"Tolerance":15,"SourceContext":"Flare.Broadcast.BroadcastChannel"}
+{"@t":"2021-10-23T16:44:38.8200942Z","@mt":"Closing event store","SourceContext":"Flare.Cluster.StorageNodeCoordinator"}
+{"@t":"2021-10-23T16:44:38.8242191Z","@mt":"Closing metastore","SourceContext":"Quince.Storage.Lmdb.LmdbDocumentStore"}
+{"@t":"2021-10-23T16:44:38.8264348Z","@mt":"Server stopped cleanly"}
